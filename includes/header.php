@@ -23,4 +23,10 @@
 
     <!-- Your existing CSS and JS -->
     <?php if (isset($additionalHeadContent)) echo $additionalHeadContent; ?>
+
+    <style>
+        input, select, textarea {
+            padding: 3px 6px;
+        }
+    </style>
 </head>
